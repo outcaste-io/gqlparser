@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/dgraph-io/gqlparser/v2/ast"
-	. "github.com/dgraph-io/gqlparser/v2/validator"
+	"github.com/outcaste-io/gqlparser/v2/ast"
+	. "github.com/outcaste-io/gqlparser/v2/validator"
 )
 
 func init() {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/dgraph-io/gqlparser/v2/ast"
+	"github.com/outcaste-io/gqlparser/v2/ast"
 )
 
 // Error is the standard graphql error type described in https://facebook.github.io/graphql/draft/#sec-Errors

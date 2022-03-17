@@ -3,8 +3,8 @@ package parser
 import (
 	"testing"
 
-	"github.com/dgraph-io/gqlparser/v2/ast"
-	"github.com/dgraph-io/gqlparser/v2/lexer"
+	"github.com/outcaste-io/gqlparser/v2/ast"
+	"github.com/outcaste-io/gqlparser/v2/lexer"
 	"github.com/stretchr/testify/require"
 )
 

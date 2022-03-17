@@ -3,8 +3,8 @@ package validator
 import (
 	"fmt"
 
-	"github.com/dgraph-io/gqlparser/v2/ast"
-	"github.com/dgraph-io/gqlparser/v2/gqlerror"
+	"github.com/outcaste-io/gqlparser/v2/ast"
+	"github.com/outcaste-io/gqlparser/v2/gqlerror"
 )
 
 type ErrorOption func(err *gqlerror.Error)

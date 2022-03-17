@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"strings"
 
-	. "github.com/dgraph-io/gqlparser/v2/ast"
-	"github.com/dgraph-io/gqlparser/v2/gqlerror"
-	"github.com/dgraph-io/gqlparser/v2/parser"
+	. "github.com/outcaste-io/gqlparser/v2/ast"
+	"github.com/outcaste-io/gqlparser/v2/gqlerror"
+	"github.com/outcaste-io/gqlparser/v2/parser"
 )
 
 func LoadSchema(inputs ...*Source) (*Schema, *gqlerror.Error) {

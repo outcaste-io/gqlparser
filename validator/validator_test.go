@@ -3,10 +3,10 @@ package validator_test
 import (
 	"testing"
 
-	"github.com/dgraph-io/gqlparser/v2"
-	"github.com/dgraph-io/gqlparser/v2/ast"
-	"github.com/dgraph-io/gqlparser/v2/parser"
-	"github.com/dgraph-io/gqlparser/v2/validator"
+	"github.com/outcaste-io/gqlparser/v2"
+	"github.com/outcaste-io/gqlparser/v2/ast"
+	"github.com/outcaste-io/gqlparser/v2/parser"
+	"github.com/outcaste-io/gqlparser/v2/validator"
 	"github.com/stretchr/testify/require"
 )
 
