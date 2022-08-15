@@ -154,12 +154,12 @@ func (v *varValidator) validateVarType(typ *ast.Type, val reflect.Value) (reflec
 				if kind == reflect.String {
 					valString = val.String()
 				} else {
-					valString = strconv.FormatInt(val.Int(), 10)
+					valString = "0x" + strconv.FormatInt(val.Int(), 16)
 				}
 				if typ.NamedType == "Int" {
-					_, errIntCoerce = strconv.ParseInt(valString, 10, 32)
+					_, errIntCoerce = strconv.ParseInt(valString, 0, 32)
 				} else {
-					_, errIntCoerce = strconv.ParseInt(valString, 10, 64)
+					_, errIntCoerce = strconv.ParseInt(valString, 0, 64)
 				}
 				if errIntCoerce != nil {
 					if errors.Is(errIntCoerce, strconv.ErrRange) {
